@@ -3,7 +3,7 @@ requires = ["maturin>=1.2,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "ironsnake-package1"
+name = "ironsnake-simple"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Rust",
@@ -12,4 +12,5 @@ classifiers = [
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
-module-name = "ironsnake.package1.ironsnake_package1_pyo3"
+module-name = "ironsnake.simple.ironsnake_simple_pyo3"
+python-source = "python"

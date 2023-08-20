@@ -1,3 +1,3 @@
-pub fn five() -> i32 {
-    5
+pub fn helloworld() -> String {
+    "Hello world!".to_string()
 }

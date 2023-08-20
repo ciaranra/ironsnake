@@ -1,0 +1,4 @@
+[package]
+name = "ironsnake-simple"
+version = { workspace = true }
+edition = { workspace = true }

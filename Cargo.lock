@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "ironsnake"
 version = "0.1.0"
+
+[[package]]
+name = "ironsnake-simple"
+version = "0.1.0"

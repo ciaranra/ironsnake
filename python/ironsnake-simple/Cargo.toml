@@ -1,5 +1,5 @@
 [package]
-name = "ironsnake-project1-pyo3"
+name = "ironsnake-simple-pyo3"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,11 +7,8 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.19"
-
-[dependencies.ironsnake]
-path = "../../crates/ironsnake"
-default-features = false
+ironsnake-simple = { path = "../../crates/ironsnake-simple" }
+pyo3 = { version = "0.19", features = ["extension-module"] }
 
 [profile.release]
 codegen-units = 1
