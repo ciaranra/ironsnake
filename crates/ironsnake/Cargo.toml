@@ -1,4 +1,12 @@
 [package]
 name = "ironsnake"
 version = { workspace = true }
+authors = { workspace = true }
 edition = { workspace = true }
+homepage = { workspace = true }
+keywords = { workspace = true }
+license = { workspace = true }
+readme = "../../README.md"
+repository = { workspace = true }
+description = "A project exploring building a Rust/Python package."
+

@@ -4,8 +4,31 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ironsnake"
+description = "A project exploring building a Rust/Python package."
+readme = "README.md"
 version = "0.1.0"
-requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: Implementation :: CPython",
+authors = [
+    { name = "Ciarán Ryan-Anderson", email = "cradevelop@gmail.com" }
 ]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+keywords = ["ironsnake", "rust", "python", "interop"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/ciaranra/ironsnake"
+Repository = "https://github.com/ciaranra/ironsnake"

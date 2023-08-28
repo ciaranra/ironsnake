@@ -1,5 +1,5 @@
 [package]
-name = "ironsnake-simple"
+name = "ironsnake-snek"
 version = { workspace = true }
 authors = { workspace = true }
 edition = { workspace = true }
@@ -9,3 +9,8 @@ license = { workspace = true }
 readme = "../../README.md"
 repository = { workspace = true }
 description = "A project exploring building a Rust/Python package."
+
+[dependencies]
+piston_window = "0.120.0"
+rand = "0.8.0"
+gfx_device_gl = "0.16"

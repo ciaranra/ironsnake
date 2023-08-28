@@ -1,14 +1,17 @@
 [workspace]
+resolver = "2"
 members = [
-    "crates/*",
-]
-default-members = [
     "crates/*",
 ]
 
 [workspace.package]
 version = "0.1.0"
+authors = ["Ciarán Ryan-Anderson <cradevelop@gmail.com>"]
 edition = "2021"
+keywords = ["ironsnake", "rust", "python", "interop"]
+homepage = "https://github.com/ciaranra/ironsnake"
+repository = "https://github.com/ciaranra/ironsnake"
+license = "Apache-2.0"
 
 [workspace.dependencies]
 pyo3 = "0.19"

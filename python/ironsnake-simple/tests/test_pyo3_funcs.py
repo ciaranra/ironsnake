@@ -12,7 +12,7 @@ def test_five():
 
 
 def test_get_tuple():
-    assert simple_rs.get_tuple() == ('Hello, World!', 42, 3.14)
+    assert simple_rs.get_tuple() == ('Hello, World!', 42, 3.141592653589793)
 
 
 def test_aggregate_creation():
@@ -20,7 +20,7 @@ def test_aggregate_creation():
     # agg = simple_rs.PyAggregate("Hello", 42, 3.14)
     assert agg.text == "Hello, Python!"
     assert agg.int == 42
-    assert agg.float_number == 3.14
+    assert agg.float_number == 3.141592653589793
 
 
 def test_person_creation():
